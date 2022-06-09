@@ -1,4 +1,3 @@
-# .github/workflows/sql-deploy.yml
 on: [push]
   workflow_dispatch:
 
