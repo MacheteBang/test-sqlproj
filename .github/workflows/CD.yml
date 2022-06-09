@@ -14,4 +14,4 @@ jobs:
         connection-string: ${{ secrets.MMMPIZZA_AZURE_SQL_CONNECTION_STRING }}
         project-file: './Source/SuperHeroes/SuperHeroes.sqlproj'
         build-arguments: '-c Release'                 # Optional arguments passed to dotnet build
-        arguments: '/p:DropObjectsNotInSource=true'   # Optional parameters for SqlPackage Publish
+        arguments: '/p:DropObjectsNotInSource=false'   # Optional parameters for SqlPackage Publish
